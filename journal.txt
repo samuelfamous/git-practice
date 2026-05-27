@@ -1,1 +1,2 @@
 Hello, this is my first entry!
+line 2

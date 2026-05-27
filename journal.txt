@@ -1,2 +1,2 @@
 Hello, this is my first entry!
-line 2
+line 2Roses are red, Git is sublime,

@@ -1,0 +1,16 @@
+name: Automated Factory Quality Check
+
+on: [push]
+
+jobs:
+  quality-control:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out our code time capsule
+        uses: actions/checkout@v4
+
+      - name: Run automated quality test
+        run: |
+          echo "🤖 Robot: Starting quality control scan..."
+          grep "Hello" journal.txt
+          echo "✅ Robot: Test passed! The journal is valid."

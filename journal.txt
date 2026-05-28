@@ -1,3 +1,4 @@
 Hello, this is my first entry!
 line 2Roses are red, Git is sublime,
 Idea: Build an AI app.
+SECRET EXPERIMENT: This feature is only half done...
